@@ -1,50 +1,82 @@
-# Welcome to your Expo app 👋
+﻿#  Quiz App Mobile
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Aplicativo mobile desenvolvido com **React Native** e **Expo**, inspirado em boas práticas modernas e focado na criação de um sistema de perguntas e respostas interativo e intuitivo.
 
-## Get started
+##  Visão Geral
 
-1. Install dependencies
+O **Quiz App** é um projeto educacional com foco em desenvolvimento mobile utilizando o ecossistema React Native. Os usuários podem responder perguntas de múltipla escolha com feedback imediato e navegação fluida entre as etapas do quiz.
 
-   ```bash
-   npm install
-   ```
+##  Funcionalidades
 
-2. Start the app
+- Interface responsiva com componentes customizados
+- Lógica de pontuação ao final do quiz
+- Transições suaves entre as telas
+- Feedback visual para respostas corretas e incorretas
+- Possibilidade de reiniciar o quiz
 
-   ```bash
-   npx expo start
-   ```
+##  Screenshots
 
-In the output, you'll find options to open the app in a
+> *(Adicione aqui capturas de tela do app em funcionamento para melhor visualização)*
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+---
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+##  Estrutura do Projeto
 
-## Get a fresh project
+\\\
+quiz-app-mobile/
+ assets/              # Imagens e fontes
+ components/          # Componentes reutilizáveis como Header, Button, QuestionCard
+ data/                # Banco de dados local com perguntas
+ screens/             # Telas principais (Home, Quiz, Result)
+ App.tsx              # Componente principal da aplicação
+ README.md            # Documentação
+\\\
 
-When you're ready, run:
+---
 
-```bash
-npm run reset-project
-```
+##  Tecnologias Utilizadas
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+- React Native
+- Expo
+- TypeScript
+- React Navigation
+- Git e GitHub
 
-## Learn more
+---
 
-To learn more about developing your project with Expo, look at the following resources:
+##  Desenvolvedor
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+Feito com  por [Vladison Costa](https://github.com/VladisonCosta)
 
-## Join the community
+-  [LinkedIn](https://www.linkedin.com/in/vladison-costa-05445732b)
+-  vladison.lucas@outlook.com
 
-Join our community of developers creating universal apps.
+---
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+##  Como rodar localmente
+
+\\\ash
+# Clone o repositório
+git clone https://github.com/VladisonCosta/quiz-app-mobile.git
+
+# Acesse o diretório
+cd quiz-app-mobile
+
+# Instale as dependências
+npm install
+
+# Rode o projeto
+npx expo start
+\\\
+
+---
+
+##  Contribuições
+
+Contribuições são bem-vindas! Sinta-se livre para abrir issues e pull requests.
+
+---
+
+##  Licença
+
+Este projeto está licenciado sob a **MIT License**.
